@@ -17,6 +17,6 @@ stopinfo = {}
 
 xmltodict.parse(f.read(), item_depth=3, item_callback=outputThings)
 
-print json.dumps(stopinfo, sort_keys=True, indent=2)
+print json.dumps(stopinfo, sort_keys=True)
 
 f.close()
